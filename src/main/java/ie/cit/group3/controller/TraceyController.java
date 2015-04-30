@@ -1,14 +1,7 @@
 package ie.cit.group3.controller;
 
 
-import java.sql.Date;
-import java.util.List;
 
-import ie.cit.group3.JdbcTemplateTestApplication;
-import ie.cit.group3.domain.ChObject;
-import ie.cit.group3.domain.Image;
-import ie.cit.group3.domain.Participant;
-import ie.cit.group3.domain.Role;
 import ie.cit.group3.entity.User;
 import ie.cit.group3.service.ChObjectService;
 import ie.cit.group3.service.ImageService;
