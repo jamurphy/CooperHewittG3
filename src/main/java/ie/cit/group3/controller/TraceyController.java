@@ -18,23 +18,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/browse")
 public class TraceyController {
 	
-	
-	
 	@Autowired
 	ChObjectService chobject;
-	
 	@Autowired
 	RolesService roles;
-	
 	@Autowired
 	ParticipantService participants;
-	
-	@Autowired
+		@Autowired
 	ImageService images;
 	
 		
-	
-	@RequestMapping(value="/listall/users", method = RequestMethod.GET) 
+		@RequestMapping(value="/listall/users", method = RequestMethod.GET) 
 	
 	public String findByUsername(ModelMap model) {	
 
