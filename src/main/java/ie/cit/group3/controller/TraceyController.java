@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/Browse")
+@RequestMapping("/browse")
 public class TraceyController {
 	
 	@Autowired
@@ -41,12 +41,12 @@ public class TraceyController {
 
 		 
 		 
-		 User listuser = new User();
-		 listuser.setId(1234);
-		 listuser.setUsername("Tracey");
+		 User user1 = new User();
+		 user1.setId(1234);
+		 user1.setUsername("Tracey");
 		 
 			 
-		 model.addAttribute("user", listuser);
+		 model.addAttribute("user", user1);
 		 
 	    return "displayUserProfile" ;	
 	}    
