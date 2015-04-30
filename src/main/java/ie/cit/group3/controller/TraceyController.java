@@ -45,7 +45,6 @@ public class TraceyController {
 		 user1.setId(1234);
 		 user1.setUsername("Tracey");
 		 
-			 
 		 model.addAttribute("user", user1);
 		 
 	    return "displayUserProfile" ;	
