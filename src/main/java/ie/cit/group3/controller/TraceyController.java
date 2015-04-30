@@ -1,6 +1,5 @@
 package ie.cit.group3.controller;
 
-
 //Tracey controller class 
 
 import ie.cit.group3.entity.User;
