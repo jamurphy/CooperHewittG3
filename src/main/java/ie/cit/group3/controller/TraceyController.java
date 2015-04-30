@@ -37,6 +37,8 @@ public class TraceyController {
 		 User user1 = new User();
 		 user1.setId(1234);
 		 user1.setUsername("Tracey");
+		 User user2 = new User();
+		 user2.setUsername("Breege");
 		 
 		 model.addAttribute("user", user1);
 		 
