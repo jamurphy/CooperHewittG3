@@ -31,9 +31,7 @@ public class TraceyController {
 	@Autowired
 	ImageService images;
 	
-	
-
-	
+		
 	
 	@RequestMapping(value="/listall/users", method = RequestMethod.GET) 
 	
